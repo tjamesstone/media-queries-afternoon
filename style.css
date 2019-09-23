@@ -71,14 +71,13 @@ button{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 0rem 3rem;
-    align-items: center;
+    
+   align-items: center;
    
 }
 .menubutton{
     background: #FED030;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     display: flex;
