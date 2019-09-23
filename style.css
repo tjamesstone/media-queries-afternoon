@@ -14,10 +14,13 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: center ;
     background-size: cover;
     height: 700px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 i{
@@ -26,6 +29,7 @@ i{
 
 b{
     font-size: 80px;
+    text-align: center;
 }
 button{
     background: #FEC811;
@@ -52,13 +56,21 @@ button{
     display: flex;
     color: white;
 }
+.dropdown{
+    display: flex;
+    color: white; 
+    
+}
+.container{
+    background: #212528;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     padding: 0rem 3rem;
     align-items: center;
-
+   
 }
 .menubutton{
     background: #FED030;
@@ -80,7 +92,11 @@ p{
 @media (max-width: 1000px) {
     nav {
         background: #212528;
-        
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 3rem;
+        align-items: center;
     }
     .navlist{
         display: none;
