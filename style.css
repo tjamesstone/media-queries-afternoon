@@ -43,6 +43,9 @@ button{
     border-radius: .25rem;
     
 }
+.container{
+    display: none;
+}
 
 .headercontent {
     display: flex;
