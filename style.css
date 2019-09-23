@@ -60,13 +60,32 @@ nav{
     align-items: center;
 
 }
+.menubutton{
+    background: #FED030;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    display: none;
+}
 p{
    color:  #FED030;
    font-size: xx-large;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     nav {
         background: #212528;
+        
+    }
+    .navlist{
+        display: none;
+    }
+    .menubutton{
+        display: flex;
     }
 }
